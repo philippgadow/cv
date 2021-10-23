@@ -1,0 +1,235 @@
+%% LaTeX CV file for Philipp Gadow
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+%% custom commands
+\newcommand{\arxiv}[1]{\href{http://arxiv.org/abs/#1}{\texttt{arXiv:#1}}}
+
+\newlength{\savedindent}
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{grey}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvheadnamewidth}{10cm}            % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+
+\usepackage{bm}
+
+% personal data
+\name{Philipp}{Gadow}
+\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+\address{Große Rainstr. 87}{22765 Hamburg}{Germany}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+%% \phone[mobile]{+1~(234)~567~890}
+% optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+%% \phone[fixed]{+2~(345)~678~901}
+%% \phone[fax]{+3~(456)~789~012}
+\email{philipp.gadow@mytum.de}                               % optional, remove / comment the line if not wanted
+\homepage{me.pgadow.de}                         % optional, remove / comment the line if not wanted
+%\social[linkedin]{john.doe}                        % optional, remove / comment the line if not wanted
+%\social[xing]{john\_doe}                           % optional, remove / comment the line if not wanted
+%\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
+% \social[github]{philippgadow}                     % optional, remove / comment the line if not wanted
+%\social[gitlab]{https://gitlab.cern.ch/pgadow}     % optional, remove / comment the line if not wanted
+%\social[skype]{jdoe}                               % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+%\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Employment and education}
+\cventry{2020+}{Postdoctoral Research Fellow}{Deutsches Elektronensynchrotron DESY}{Hamburg, Germany}{}{}{}
+
+\cventry{2016--2020}{PhD Physics}{Max-Planck-Institut für Physik}{Munich, Germany}{}{%
+Advisor: PD Dr. Oliver Kortner \\%
+\href{https://cds.cern.ch/record/2744557}{Thesis: Search for Dark Matter Produced in Association with Hadronically Decaying Bosons at \(\sqrt{s}\)~=~13\,TeV with the ATLAS Detector at the LHC} %
+}
+\cventry{2013--2016}{M.Sc. Particle Physics}{Technical University of Munich}{Munich, Germany}{}{%
+\href{https://cds.cern.ch/record/2162398}{Thesis: Development of a Concept for the Muon Trigger of the ATLAS Detector at the HL-LHC}%
+}
+\cventry{Winter 2013}{Erasmus SMS}{University of Edinburgh}{Edinburgh, United Kingdom}{}{}
+\cventry{2010--2013}{B.Sc. Physics}{Technical University of Munich}{Munich, Germany}{}{%
+\href{https://www.das.ktas.ph.tum.de/DasDocs/Public/Bachelor_Theses/thesis_Gadow.pdf}{Thesis: dE/dx studies with pion and electron tracks of the ALICE GEM IROC prototype}%
+}
+
+\section{Appointments}
+\cventry{2021+}{Flavour tagging algorithms sub-group convener}{ATLAS experiment}{}{}{Co-coordination (2 conveners) of a group consisting of 40 physicists working on machine learning algorithms for the identification of heavy-flavour jets at the ATLAS experiment}
+
+% \section{Selected areas of research}
+% \cventry{}{Searches for exotic heavy particles with ATLAS}{}{}{}{}
+% \cventry{}{Collider-based searches for dark matter particles}{}{}{}{}
+% \cventry{}{Machine-learning algorithms for the identification of heavy-flavour jets}{}{}{}{}
+
+
+
+
+\section{Selected publications}
+% \subsection{Über 190 in Fachzeitschriften publizierte Veröffentlichungen als Mitglied der ATLAS Kollaboration.}
+% \cvitem{}{\textit{\scriptsize Jede Publikation der ATLAS Kollaboration beruht auf der Mitwirkung von tausenden Wissenschaftlern und Wissenschaftlerinnen. Daher beinhaltet jede Publikation der ATLAS Kollaboration die Namen aller Mitglieder in alphabetischer Reihenfolge. Die hier aufgelisteten Veröffentlichungen beinhalten ausschließlich maßgebliche persönliche Beiträge.%
+% }}
+
+
+
+\cvitem{Sep 2021}{Search for heavy resonances in four-top-quark final states in pp collisions at $\sqrt{s}=13$ TeV with the ATLAS detector \newline
+\textit{\href{https://cds.cern.ch/record/2781173/}{ATLAS-CONF-2021-048}} (non-peer-reviewed ATLAS publication)}
+
+\cvitem{Mar 2021}{Search for dark matter produced in association with a dark Higgs boson decaying to \(W^{\pm} W^{\mp}\) or \(ZZ\) in fully hadronic final states using \(pp\) collisions at \(\sqrt{s}=\) \(13\,\)TeV recorded with the ATLAS detector \newline
+\textit{\href{https://doi.org/10.1103/PhysRevLett.126.121802}{Phys. Rev. Lett. 126, 121802}}, \arxiv{2010.06548}}
+
+\cvitem{Aug 2019}{RECAST framework reinterpretation of an ATLAS Dark Matter Search constraining a model of a dark Higgs boson decaying to two $b$-quarks \newline
+\textit{\href{https://cds.cern.ch/record/2686290/}{ATLAS-PUB-2019-032}} (non-peer-reviewed ATLAS publication)}
+
+\cvitem{Jun 2019}{Combination of Searches for Invisible Higgs Boson Decays with the ATLAS Experiment [minor contribution] \newline
+\textit{\href{https://doi.org/10.1103/PhysRevLett.122.231801}{Phys. Rev. Lett. 122, 231801}}, \arxiv{1904.05105}}
+
+\cvitem{Mar 2019}{Constraints on mediator-based dark matter and scalar dark energy models using $\sqrt{s}$ = 13 TeV $pp$ collision data collected by the ATLAS detector \newline
+\textit{\href{https://doi.org/10.1007/JHEP05(2019)142}{JHEP 1905 (2019) 142}}, \arxiv{1903.01400}}
+
+\cvitem{Oct 2018}{Search for dark matter in events with a hadronically decaying vector boson and missing transverse momentum in $pp$ collisions at $\sqrt{s}$ = 13 TeV with the ATLAS detector \newline
+\textit{\href{https://doi.org/10.1007/JHEP10(2018)180}{JHEP 10 (2018) 180}}, \arxiv{1807.11471}}
+
+\cvitem{Jul 2018}{Search for Dark Matter Produced in Association with a Higgs Boson Decaying to $b\bar{b}$ at $\sqrt{s}=13$ TeV with the ATLAS Detector using 79.8 fb$^{-1}$ of pp collisions \newline
+\textit{\href{https://cds.cern.ch/record/2632344/}{ATLAS-CONF-2018-039}} (non-peer-reviewed ATLAS publication)}
+
+
+\subsection{Proceedings}
+\cvitem{Dez 2018}{Search for Dark Matter in association with a hadronically decaying $Z$' vector boson with the ATLAS detector in $pp$ collisions at 13 TeV\newline
+\textit{\href{https://doi.org/10.22323/1.321.0016}{PoS LHCP2018 (2018) 016} (Proceedings)}}
+
+\cvitem{Nov 2015}{Performance of a First-Level Muon Trigger with High Momentum Resolution Based on the ATLAS MDT Chambers for HL-LHC\newline
+\textit{\href{https://doi.org/10.1109/NSSMIC.2015.7581794}{NSS/MIC 2015} (Proceedings)}, \arxiv{1511.09210}}
+
+
+
+\section{Talks and posters}
+\subsection{Invited talks}
+\cventry{Feb 2020}{Dark matter searches with the ATLAS detector at the LHC}{Cavendish Laboratory HEP Seminar}{Cambridge, United Kingdom}{seminar talk}{}
+
+\subsection{International conferences}
+\cventry{Jul 2019}{ATLAS Highlights on Dark Matter Searches in Exotic Models}{XIII International Workshop on Interconnections between Particle Physics and Cosmology}{Cartagena, Columbia}{\href{https://fisindico.uniandes.edu.co/indico/contributionDisplay.py?contribId=5&sessionId=20&confId=78}{conference talk}}{}
+
+\cventry{Oct 2018}{Search for dark matter produced in association with a Higgs boson decaying to bb}{Puzzle of Dark Matter Workshop}{DESY Hamburg, Germany}{\href{https://indico.desy.de/indico/event/19155/session/9/contribution/51/material/slides/0.pdf}{Young Scientist Forum talk}}{}
+
+\cventry{Jun 2018}{Search for Dark Matter in association with a hadronically decaying Z' vector boson with the ATLAS detector in pp collisions at 13 TeV}{Sixth Annual Conference on Large Hadron Collider Physics}{Bologna, Italien}{\href{https://indico.cern.ch/event/681549/contributions/2956249/}{poster}}{}
+
+% \subsection{National conferences}
+% \cventry{Sep 2019}{Signal reweighting using BDTs}{ATLAS Germany Meeting}{Munich, Germany}{\href{https://indico.cern.ch/event/811522/contributions/3541796}{parallel talk}}{}
+
+% \cventry{Mar 2019}{Dark Matter + Mono-h(bb): How to get rid of the multijet background using the object-based $E_{\textrm{T}}^{\textrm{miss}}$ significance}{DPG spring meeting}{Aachen, Germany}{parallel talk}{}
+
+% \cventry{Sep 2018}{Object-based $E_{\textrm{T}}^{\textrm{miss}}$ significance in Mono-H($\overline{b}b$)}{ATLAS Germany Meeting}{Freiburg, Germany}{\href{https://indico.cern.ch/event/700593/contributions/3092043/}{parallel talk}}{}
+
+% \cventry{Mar 2018}{Search for Dark Matter produced in association with a hadronically decaying W or Z boson with ATLAS Run-2 data}{DPG spring meeting}{Würzburg, Germany}{parallel talk}{}
+
+% \cventry{Mar 2017}{Search for Dark Matter produced in association with a hadronically decaying W or Z boson with ATLAS Run-2 data}{DPG spring meeting}{Münster, Germany}{parallel talk}{}
+
+% \cventry{Mar 2017}{Development of a new Level-0 Muon Trigger for the ATLAS Experiment at High-Luminosity-LHC}{DPG spring meeting}{Münster, Germany}{parallel talk}{}
+
+% \cventry{Mar 2016}{Development of fast track reconstruction algorithms for the ATLAS MDT-precision-chamber-based Level-0 Muon Trigger at HL-LHC}{DPG spring meeting}{Hamburg, Germany}{parallel talk}{}
+
+% \cventry{Mar 2016}{Study of the MDT-precision-chamber-based Level-0 Muon Trigger selectivity for the ATLAS experiment at HL-LHC}{DPG spring meeting}{Hamburg, Germany}{parallel talk}{}
+
+\section{Schools}
+
+\cventry{Jul 2019}{Fifth Machine Learning in High Energy Physics Summer School 2019
+}{DESY}{Hamburg, Germany}{10 days}{}
+\cventry{Sep 2017}{49. Herbstschule für Hochenergiephysik 2019}{University of Siegen}{Maria Laach, Germany}{10 days}{}
+
+\section{Awards}
+
+\cventry{2010-2016}{Full scholarship, German Academic Scholarship Foundation}{}{}{}{}
+\cventry{2014}{Goldene Kreide teaching award for student tutorial sessions}{}{}{}{}
+
+% \section{Teaching}
+
+% \cventry{2016/17}{Mechanics}{TU Munich}{}{tutor}{}
+% \cventry{2012, 2014, 2017}{Electromagnetism and Special Relativity}{TU Munich}{}{tutor}{}
+% \cventry{2012/13, 2015/16}{Optics}{TU Munich}{}{tutor}{}
+% \cventry{2011/12, 2012/13}{Linear Algebra}{TU Munich}{}{tutor}{}
+% \cventry{2011/12, 2012/13}{Maths introductory course for freshman students}{TU Munich}{}{tutor}{}
+
+% \section{Outreach}
+% \cventry{}{ATLAS Masterclass}{}{}{}{%
+% High school students learn about fundamentals of particle physics in lectures and engange in hands-on data analysis. I participated in ATLAS masterclasses by preparing and giving lectures and instructing the students in the hands-on session.%
+% }
+% \cventry{}{Science Slams}{}{}{}{%
+% Science slams are competetive events in which scientists present their research in a given time frame to a diverse audience in an entertaining way. I participated in over 30 such events with a \href{https://www.youtube.com/watch?v=ZBDvvXhFoZg}{talk about dark matter searches at the Large Hadron Collider}, including the Southern German championship.%
+% }
+
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+\end{document}
+
+\clearpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
+\date{January 01, 1984}
+\opening{Dear Sir or Madam,}
+\closing{Yours faithfully,}
+\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
+
+Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
+
+Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
+
+Albert Einstein discovered that $e=mc^2$ in 1905.
+
+\[ e=\lim_{n \to \infty} \left(1+\frac{1}{n}\right)^n \]
+
+\makeletterclosing
+
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.
