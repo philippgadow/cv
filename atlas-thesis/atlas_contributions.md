@@ -1,25 +1,20 @@
-# List of contributions to ATLAS
+# Contributions by Philipp Gadow to ATLAS
 
-- internal notes or publications originating from the thesis
-- talks given by the candidate in ATLAS meetings, as well as at workshops and conferences
-- responsibilities in ATLAS (operations, performance groups, analysis)
-
-
-## Internal notes or publications originating from the thesis
+## Notes or publications originating from the thesis
 
 ### Internal notes originating from the thesis
 
-- Search for Dark Matter in association with a hadronically decaying vector boson in $pp$ collisions at $\sqrt{s}=13$ using 2015+2016 data collected with the ATLAS detector
+- Search for Dark Matter in association with a hadronically decaying vector boson in pp collisions at √s = 13 TeV using 2015+2016 data collected with the ATLAS detector
 	- internal documentation of the analysis
 	- one of two main analysers (with Xuanhong Lou), co-editor of the note
 	- https://cds.cern.ch/record/2226524?
 
-- Constraints on mediator-based dark matter and scalar dark energy models using $\sqrt{s}=13$ TeV $pp$ collision data collected by the ATLAS detector
+- Constraints on mediator-based dark matter and scalar dark energy models using √s = 13 TeV pp collision data collected by the ATLAS detector
 	- internal documentation of the summary paper
 	- combination paper contact to the mono-V(had) analysis team, performed re-scaling studies for the mono-V(had) simplified vector mediator model limits
 	- https://cds.cern.ch/record/2273840
 
-- Search for Dark Matter Produced in Association with a Higgs Boson Decaying to $b\overline{b}$ at $\sqrt{s}=13$ TeV with the ATLAS Detector using 79.8 fb$^{-1}$ of $pp$ collisions
+- Search for Dark Matter Produced in Association with a Higgs Boson Decaying to bb at √s = 13 TeV with the ATLAS Detector using 79.8 fb $$^{-1}$$ of pp collisions
 	- internal documentation of CONF note
 	- analysis framework, statistical analysis, object-based MET significance, multijet estimate, co-editor of the note
 	- https://cds.cern.ch/record/2301321
@@ -29,7 +24,7 @@
 	- coordination of the effort, recast workflow implementation, validation, plots
 	- https://cds.cern.ch/record/2683036 
 
-- Search for dark matter produced in association with a dark Higgs boson decaying into $W^\pm W^\mp$ or $ZZ$ in fully hadronic final states from $\sqrt{s}=13$ TeV $pp$ collisions recorded with the ATLAS detector
+- Search for dark matter produced in association with a dark Higgs boson decaying into WW or ZZ in fully hadronic final states from √s = 13 TeV pp collisions recorded with the ATLAS detector
 	- internal documentation of the analysis
 	- one of two main analysers (with Fabrizio Napolitano), co-editor of the note
 	- https://cds.cern.ch/record/2682182
@@ -37,11 +32,11 @@
 
 ### Publications originating from the thesis
 
-- Search for dark matter in events with a hadronically decaying vector boson and missing transverse momentum in $pp$ collisions at $\sqrt{s}=13$ TeV with the ATLAS detector
+- Search for dark matter in events with a hadronically decaying vector boson and missing transverse momentum in $pp$ collisions at √s = 13 TeV with the ATLAS detector
 	- J. High Energ. Phys. 2018, 180 (2018), 77 citations (as of 06.11.2021)
 	- https://doi.org/10.1007/JHEP10(2018)180
 
-- Constraints on mediator-based dark matter and scalar dark energy models using $\sqrt{s}=13$ TeV $pp$ collision data collected by the ATLAS detector
+- Constraints on mediator-based dark matter and scalar dark energy models using √s = 13 TeV pp collision data collected by the ATLAS detector
 	- J. High Energ. Phys. 2019, 142 (2019), 107 citations (as of 06.11.2021)
 	- https://doi.org/10.1007/JHEP05(2019)142
 
@@ -49,7 +44,7 @@
 	- Phys. Rev. Lett. 122 (2019) 231801, 128 citations (as of 06.11.2021)
 	- https://doi.org/10.1103/PhysRevLett.122.231801
 
-- Search for Dark Matter Produced in Association with a Higgs Boson Decaying to $b\overline{b}$ at $\sqrt{s}=13$ TeV with the ATLAS Detector using 79.8 fb$^{-1}$ of $pp$ collisions
+- Search for Dark Matter Produced in Association with a Higgs Boson Decaying to bb at √s = 13 TeV with the ATLAS Detector using 79.8 fb $$^{-1}$$ of pp collisions
 	- ATLAS CONF note for Boost 2018 conference, 20 citations (as of 06.11.2021)
 	- https://cds.cern.ch/record/2301321
 
@@ -57,13 +52,13 @@
 	- ATLAS PUB note, contact editor with Lukas Heinrich, 11 citations (as of 06.11.2021)
 	- https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2019-032/ 
 
-- Search for dark matter produced in association with a dark Higgs boson decaying into $W^\pm W^\mp$ or $ZZ$ in fully hadronic final states from $\sqrt{s}=13$ TeV $pp$ collisions recorded with the ATLAS detector, 
+- Search for dark matter produced in association with a dark Higgs boson decaying into WW or ZZ in fully hadronic final states from √s = 13 TeV pp collisions recorded with the ATLAS detector, 
 	- Phys. Rev. Lett. 126 (2021) 121802, 6 citations (as of 06.11.2021)
 	- https://doi.org/10.1103/PhysRevLett.126.121802
 
 - Technical Design Report for the Phase-II Upgrade of the ATLAS Muon Spectrometer
 	- produced Figure 3.16 on p. 76 and Figure 3.17 on p. 78, quantifying the improvement by a three-station muon trigger using MDT information over the current L1 muon trigger
-	- studied rate improvement using a three-station MDT trigger over current L1 trigger as part of my qualification task
+	- studied rate improvement using a three-station MDT trigger for HL-LHC over current L1 trigger as part of my qualification task
 	- https://cds.cern.ch/record/2285580
 
 
@@ -79,8 +74,8 @@
 ### Talks given at national conferences and workshops
 
 - 2019-09-18 ATLAS-D national meeting (Munich): Signal reweighting using BDTs (https://indico.cern.ch/event/811522/contributions/3541796)
-- 2019-03-28 DPG spring meeting (Aachen): Dark Matter + Mono-h(bb): How to get rid of the multijet background using the object-based $E_{\textrm{T}}^{\textrm{miss}}$ significance (https://www.dpg-verhandlungen.de/year/2019/conference/aachen/part/t/session/79/contribution/8)
-- 2018-09-05 ATLAS-D national meeting (Freiburg): Object-based $E_{\textrm{T}}^{\textrm{miss}}$ significance in Mono-H($\overline{b}b$) (https://indico.cern.ch/event/700593/contributions/3092043)
+- 2019-03-28 DPG spring meeting (Aachen): Dark Matter + Mono-h(bb): How to get rid of the multijet background using the object-based EtMiss significance (https://www.dpg-verhandlungen.de/year/2019/conference/aachen/part/t/session/79/contribution/8)
+- 2018-09-05 ATLAS-D national meeting (Freiburg): Object-based EtMiss significance in Mono-H(bb) (https://indico.cern.ch/event/700593/contributions/3092043)
 - 2018-03-19 DPG spring meeting (Würzburg): Suche nach Dunkler Materie in Assoziation mit einem hadronisch zerfallenden W- oder Z-Boson mit den Run-2-Daten des ATLAS-Detektors (https://www.dpg-verhandlungen.de/year/2018/conference/wuerzburg/part/t/session/6/contribution/8)
 - 2017-03-27 DPG spring meeting (Münster): Suche nach Dunkler Materie in Assoziation mit einem hadronisch zerfallenden W- oder Z-Boson mit den Run-2-Daten des ATLAS-Detektors (https://www.dpg-verhandlungen.de/year/2017/conference/muenster/part/t/session/10/contribution/8)
 - 2017-03-28 DPG spring meeting (Münster): Entwicklung eines neuen Level-0 Myontriggers für das ATLAS-Experiment am High-Luminosity-LHC (https://www.dpg-verhandlungen.de/year/2017/conference/muenster/part/t/session/71/contribution/9)
@@ -89,7 +84,7 @@
 
 ### ATLAS approval talks
 
-- 2020-07-21 - Paper Approval Meeting: Search for Dark Matter Produced in Association with a Dark Higgs Boson Decaying to W±W∓ or ZZ in Fully Hadronic Final States using pp Collisions at √s = 13 TeV recorded with the ATLAS Detector (https://indico.cern.ch/event/940097/)
+- 2020-07-21 - Paper Approval Meeting: Search for Dark Matter Produced in Association with a Dark Higgs Boson Decaying to WW or ZZ in Fully Hadronic Final States using pp Collisions at √s = 13 TeV recorded with the ATLAS Detector (https://indico.cern.ch/event/940097/)
 - 2018-07-12 - Physics Plenary for CONF Note Approval: Search for Dark Matter Produced in Association with a Higgs Boson Decaying to bbbar (https://indico.cern.ch/event/743708/)
 - 2018-03-28 - Paper Approval Meeting: Improved search for dark matter produced in association with a hadronically decaying vector boson in pp collisions at √s = 13 TeV with the ATLAS detector (https://indico.cern.ch/event/716530/)
 
