@@ -1,0 +1,92 @@
+\documentclass{article}
+
+% Package definitions
+\usepackage[
+  a4paper,
+  margin=1in,
+  headsep=4pt, % separation between header rule and text
+]{geometry}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+
+% Document design choices
+\textwidth6in
+\setlength{\topmargin}{0in} \addtolength{\topmargin}{-\headheight}
+\addtolength{\topmargin}{-\headsep}
+\setlength{\oddsidemargin}{0in}
+
+\oddsidemargin  0.0in \evensidemargin 0.0in \parindent0em
+\pagestyle{fancy}\lhead{Research Statement} \rhead{June 2020}
+\chead{{\large{\bf Philipp Gadow}}} \lfoot{} \rfoot{\bf \thepage} \cfoot{}
+
+
+% Bibliography
+\usepackage{biblatex}
+\addbibresource{researchstatement_pgadow.bib}
+
+
+\begin{document}
+\raisebox{.5cm}
+
+% Research topic in a nutshell
+My research investigates the phenomena of physics beyond the Standard Model motivated by the presence of dark matter in our universe. I am particularly interested in investigating the possible connection of dark matter with electroweak symmetry breaking with signatures of dark matter production at particle colliders predicted by models with extended Higgs sector. Much of my work has centred around searches for dark matter produced in association with visibly decaying particles at the Large Hadron Collider (LHC) with the ATLAS detector.
+
+% Dark matter searches
+\bigskip
+{\bf Search for dark matter in association with hadronically decaying particles}
+\medskip
+
+The search for the fundamental constituents of matter resulted in a comprehensive description of nature at the smallest scale by the Standard Model of particle physics. Although its predictions are in excellent agreement with measurement, the theory does not account for over 80\% of the universe's gravitating matter, which is the non-luminous and still undiscovered dark matter. Searches for new physics at the LHC can probe signatures of yet unobserved dark matter particles. Dark matter particles produced in collision events can only be detected by their recoil on visible particles, such as hadrons, electroweak bosons, and Higgs bosons. I am particularly interested in searches targeting their hadronic decay mode, as is the most prevalent and thus best suited for discovery.
+
+
+I was the central analyser in teams of 15-30 physicists searching for dark matter production in association with hadronically decaying vector bosons, Higgs bosons decaying to b-quarks, and hypothetical dark Higgs bosons decaying to pairs of vector bosons. The searches pioneered novel analysis techniques for b-quark identification, background suppression, and boosted object reconstruction.
+
+\medskip
+
+The search for dark matter produced in association with a hadronically decaying vector boson analysed the proton-proton collision data recorded by the ATLAS detector in the years 2015 and 2016. The analysis employed vector boson candidate jet reconstruction techniques in resolved and boosted event topologies, enhanced by jet substructure information and multivariate algorithms to identify jets from the vector boson decay containing b-hadrons. No significant excess over the background was observed. The results were interpreted in terms of limits on a simplified dark matter model, invisible decays of Higgs bosons into dark matter particles, and generic upper limits on \(W/Z\)-boson + dark matter production. I was responsible for the statistical analysis, the maintenance of the analysis framework, and the data-driven estimate of the QCD multi-jet background. The results present the most stringent limits on this signature to date and are published in \cite{EXOT-2016-23}.
+The results were additionally included in an extensive summary publication~\cite{EXOT-2017-32}, for which I coordinated their integration and statistical interpretation in terms of a consistent model for dark matter production with an extended Higgs sector, and in a combination of ATLAS searches for invisible Higgs decays \cite{HIGG-2018-54}.
+
+\medskip
+
+The search for dark matter produced in association with a Higgs boson decaying to b-quarks analysed the proton-proton collision data recorded by the ATLAS detector in the years 2015--2017. The Higgs boson candidates were reconstructed both in resolved and boosted topologies. For the first time in an ATLAS search, a novel technique for the identification of jets originating from b-quarks in strongly boosted topologies was employed, which enhanced the sensitivity of the search by a factor of 3 to conventional techniques. A new missing transverse momentum significance definition, which takes into account individual resolutions and correlations of all objects used in calculating the missing transverse momentum, was employed to strongly suppress the QCD multi-jet background. I was responsible for the analysis software, the commissioning and evaluation of the new missing transverse momentum significance, and the statistical analysis. The results were made public in \cite{ATLAS-CONF-2018-039} and presented at the BOOST 2018 conference. I coordinated the re-interpretation of the results in terms of a model predicting dark matter production in association with a hypothetical dark Higgs boson decaying to b-quarks~\cite{ATL-PHYS-PUB-2019-032}.
+
+\medskip
+
+The search for dark matter produced in association with a hypothetical dark Higgs boson decaying to hadronically decaying vector bosons is based on the full ATLAS Run-2 proton-proton collision data. It is the first search at the LHC investigating the signature of missing transverse momentum and a resonantly produced vector boson pair. The analysis targets boosted and intermediate event topologies, using a novel large-radius jet reconstruction technique combining re-clustered small-radius jets and precision substructure information computed from inner detector tracks for the first time in an ATLAS search. I was responsible for simulating the dark matter signals, the event selection design, the implementation and commissioning of the jet reconstruction technique, and the statistical analysis. The analysis is close to publication, which is expected in summer 2020.
+
+
+% Reproducible research
+\bigskip
+{\bf Reproducible research and data preservation}
+\medskip
+
+Searches for new physics represent a significant investment of time and resources. In the light of a steadily increasing sensitivity to a growing number of BSM scenarios, a powerful reinterpretation framework enhances the impact of searches whose data is preserved. I coordinated and edited the first ATLAS public result using the RECAST reinterpretation framework to constrain a model predicting dark matter production in association with a dark Higgs boson decaying to b-quarks~\cite{ATL-PHYS-PUB-2019-032}. I commit to the ideal of open and reproducible research for the benefit of the scientific community.
+
+% ATLAS muon trigger
+\bigskip
+{\bf ATLAS muon trigger}
+\medskip
+
+The high-luminosity upgrade of the LHC (HL-LHC) will provide the ATLAS experiment with increased luminosity. Highly selective first-level triggers are required to exploit the full physics potential of HL-LHC data-taking. I studied the concept for an improved ATLAS muon trigger capable of operating in a high luminosity environment~\cite{Gadow}. The inclusion of the precision monitored drift tube (MDT) chamber information in the trigger decision results in a significantly improved momentum resolution on trigger level and allows maintaining the trigger efficiency while reducing the trigger rate over 70\% to the present muon trigger rate.
+I developed a new track segment finding algorithm for the MDT trigger and evaluated its performance. My results were included in the ATLAS Muon Spectrometer Phase-II Upgrade Technical Design Report~\cite{ATLAS-TDR-26}.
+As part of my qualification for an ATLAS authorship, I worked on optimizing the coincidence windows of the Run-2 muon trigger.
+
+
+% Future projects
+\bigskip
+{\bf Future projects}
+\medskip
+
+The physics analyses designed to detect dark matter produced in proton-proton collisions are unique windows into the data set recorded at the LHC. I am interested in searches targeting yet uncovered signatures using state-of-the-art reconstruction techniques.
+
+A search for dark matter produced in association with a low-mass hypothetical dark Higgs boson is an example for a highly relevant and timely search targeting a yet uncovered region of phase-space, which benefits from advanced jet reconstruction techniques. In particular, robust deep-learning techniques for the Higgs boson candidate identification can strongly enhance the sensitivity of this search.
+My expertise in analyses targeting hadronically decaying bosons in boosted event topologies will be beneficial for effective and successful physics analysis of searches targeting this signature. I am open to other searches targeting exotic Higgs decays or new resonance particles.
+
+The demand for sustainable and scalable data-analysis, which will become even more relevant with the HL-LHC data set, gives crucial importance to re-interpretation, data-preservation and computing techniques. I am interested in the development of algorithms for heterogeneous and scalable architectures.
+
+
+% Bibliography
+\printbibliography
+
+\end{document}
