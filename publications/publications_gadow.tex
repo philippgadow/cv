@@ -1,0 +1,126 @@
+%% LaTeX publication list file for Philipp Gadow
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+%% custom commands
+\newcommand{\arxiv}[1]{\href{http://arxiv.org/abs/#1}{\texttt{arXiv:#1}}}
+
+\newlength{\savedindent}
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{black}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+\usepackage{amssymb}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvheadnamewidth}{10cm}            % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{bm}
+
+% personal data
+\name{Philipp}{Gadow}
+\title{Publication list}                               % optional, remove / comment the line if not wanted
+\address{Große Rainstr. 87}{22765 Hamburg}{Germany}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+%% \phone[mobile]{+1~(234)~567~890}
+% optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+%% \phone[fixed]{+2~(345)~678~901}
+%% \phone[fax]{+3~(456)~789~012}
+\email{philipp.gadow@mytum.de}                               % optional, remove / comment the line if not wanted
+\homepage{me.pgadow.de}                         % optional, remove / comment the line if not wanted
+%\social[linkedin]{john.doe}                        % optional, remove / comment the line if not wanted
+%\social[xing]{john\_doe}                           % optional, remove / comment the line if not wanted
+%\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
+% \social[github]{philippgadow}                     % optional, remove / comment the line if not wanted
+%\social[gitlab]{https://gitlab.cern.ch/pgadow}     % optional, remove / comment the line if not wanted
+%\social[skype]{jdoe}                               % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+%\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\begin{itemize}
+	\item Bibliometric information: \url{https://inspirehep.net/author/profile/P.P.Gadow.1}
+	\item Orcid ID: \href{https://orcid.org/
+0000-0003-4475-6734}{0000-0003-4475-6734}
+\end{itemize}
+
+\section{Selected peer-reviewed publications}
+\subsection{Over 260 published journal publications as part of the ATLAS Collaboration.}
+\cvitem{}{\textit{\scriptsize Every publication of the ATLAS collaboration relies on the results of thousands of individual researchers and technicians. For this reason, each document made public by the ATLAS collaboration includes all members of the collaboration, in alphabetical order. This section includes only publications with direct personal contribution.
+}}
+
+\cvitem{Mar 2021}{Search for dark matter produced in association with a dark Higgs boson decaying to \(W^{\pm} W^{\mp}\) or \(ZZ\) in fully hadronic final states using \(pp\) collisions at \(\sqrt{s}=\) \(13\,\)TeV recorded with the ATLAS detector \newline
+\textit{\href{https://doi.org/10.1103/PhysRevLett.126.121802}{Phys. Rev. Lett. 126, 121802}}, \arxiv{2010.06548}, \href{https://inspirehep.net/literature/1822529}{7 citations (21.03.2022)} \newline
+\textit{central analyser, analysis strategy, analysis software design and maintenance, distributed computing, signal samples, statistical analysis}}
+
+\cvitem{Jun 2019}{Combination of Searches for Invisible Higgs Boson Decays with the ATLAS Experiment [minor contribution] \newline
+\textit{\href{https://doi.org/10.1103/PhysRevLett.122.231801}{Phys. Rev. Lett. 122, 231801}}, \arxiv{1904.05105}, \href{https://inspirehep.net/literature/1729103}{152 citations (21.03.2022)} \newline
+\textit{contributed to studies regarding statistical independence of results}}
+
+\cvitem{Mar 2019}{Constraints on mediator-based dark matter and scalar dark energy models using $\sqrt{s}$ = 13 TeV $pp$ collision data collected by the ATLAS detector \newline
+\textit{\href{https://doi.org/10.1007/JHEP05(2019)142}{JHEP 1905 (2019) 142}}, \arxiv{1903.01400}, \href{https://inspirehep.net/literature/1723267}{120 citations (21.03.2022)} \newline
+\textit{liaison for incorporating JHEP 10 (2018) 180 results, reinterpretation for dark matter simplified model with extended Higgs sector}}
+
+\cvitem{Oct 2018}{Search for dark matter in events with a hadronically decaying vector boson and missing transverse momentum in $pp$ collisions at $\sqrt{s}$ = 13 TeV with the ATLAS detector \newline
+\textit{\href{https://doi.org/10.1007/JHEP10(2018)180}{JHEP 10 (2018) 180}}, \arxiv{1807.11471}, \href{https://inspirehep.net/literature/1684341}{86 citations (21.03.2022)} \newline
+\textit{central analyser, analysis software maintenance, distributed computing, multijet background estimate, statistical analysis}}
+
+
+\section{Selected public notes released by the ATLAS experiment}
+
+\cvitem{Sep 2021}{Search for heavy resonances in four-top-quark final states in pp collisions at $\sqrt{s}=13$ TeV with the ATLAS detector \newline
+\textit{\href{https://cds.cern.ch/record/2781173/}{ATLAS-CONF-2021-048}} (non-peer-reviewed ATLAS publication) \newline
+\textit{co-lead of analysis, statistical analysis, distributed computing, signal samples, student supervision}}
+
+\cvitem{Aug 2019}{RECAST framework reinterpretation of an ATLAS Dark Matter Search constraining a model of a dark Higgs boson decaying to two $b$-quarks \newline
+\textit{\href{https://cds.cern.ch/record/2686290/}{ATLAS-PUB-2019-032}} (non-peer-reviewed ATLAS publication) \newline 
+\textit{co-editor, co-organisation of effort, signal samples, RECAST workflow setup}}
+
+\cvitem{Jul 2018}{Search for Dark Matter Produced in Association with a Higgs Boson Decaying to $b\bar{b}$ at $\sqrt{s}=13$ TeV with the ATLAS Detector using 79.8 fb$^{-1}$ of pp collisions \newline
+\textit{\href{https://cds.cern.ch/record/2632344/}{ATLAS-CONF-2018-039}} (non-peer-reviewed ATLAS publication) \newline
+\textit{central analyser, analysis software maintenance, commisioning of object-based missing transverse momentum significance and multijet estimate, distributed computing, statistical analysis}}
+
+
+\section{Proceedings}
+\cvitem{Dez 2018}{Search for Dark Matter in association with a hadronically decaying $Z$' vector boson with the ATLAS detector in $pp$ collisions at 13 TeV\newline
+\textit{\href{https://doi.org/10.22323/1.321.0016}{PoS LHCP2018 (2018) 016} (Proceedings)}}
+
+\cvitem{Nov 2015}{Performance of a First-Level Muon Trigger with High Momentum Resolution Based on the ATLAS MDT Chambers for HL-LHC\newline
+\textit{\href{https://doi.org/10.1109/NSSMIC.2015.7581794}{NSS/MIC 2015} (Proceedings)}, \arxiv{1511.09210}}
+
+
+
+\end{document}
+
+
+%% end of file `template.tex'.
