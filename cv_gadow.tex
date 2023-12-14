@@ -6,7 +6,7 @@
 % available at http://www.latex-project.org/lppl/.
 
 
-\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[10pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 %% custom commands
 \newcommand{\arxiv}[1]{\href{http://arxiv.org/abs/#1}{\texttt{arXiv:#1}}}
@@ -40,14 +40,14 @@
 %% \phone[fixed]{+2~(345)~678~901}
 %% \phone[fax]{+3~(456)~789~012}
 \email{philipp.gadow@mytum.de}                               % optional, remove / comment the line if not wanted
-\homepage{me.pgadow.de}                         % optional, remove / comment the line if not wanted
+% \homepage{me.pgadow.de}                         % optional, remove / comment the line if not wanted
 %\social[linkedin]{john.doe}                        % optional, remove / comment the line if not wanted
 %\social[xing]{john\_doe}                           % optional, remove / comment the line if not wanted
 %\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
-% \social[github]{philippgadow}                     % optional, remove / comment the line if not wanted
-%\social[gitlab]{https://gitlab.cern.ch/pgadow}     % optional, remove / comment the line if not wanted
-%\social[skype]{jdoe}                               % optional, remove / comment the line if not wanted
-%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+\social[github]{philippgadow}                     % optional, remove / comment the line if not wanted
+% \social[gitlab]{https://gitlab.cern.ch/pgadow}     % optional, remove / comment the line if not wanted
+% \social[skype]{philippgadow1190}                               % optional, remove / comment the line if not wanted
+\extrainfo{\url{http://me.pgadow.de}}                 % optional, remove / comment the line if not wanted
 %\quote{Some quote}                                 % optional, remove / comment the line if not wanted
 
 % bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
@@ -97,7 +97,7 @@ Advisor: PD Dr. Oliver Kortner \\%
 \subsection{Searches for heavy particles}
 \cventry{2020+}{Search for heavy resonances in four-top-quark final states}{}{}{}{
 	\emph{Explicit resonance search in challenging four-top-quark final state.}\newline
-	I co-lead the analysis team, maintained the analysis software and produced the inputs for the statistical analysis. Further, I contributed to fitting studies and simulated the signal process.
+	For a Run-2 analysis, I co-lead the analysis team, maintained the analysis software and contributed to fitting studies and studied the simulation of signal processes. Currently, I co-lead the combined Run-2 and Run-3 search for signatures of physics beyond the Standard Model in three- and four-top-quark final states.
 }
 \subsection{Searches for dark matter}
 \cventry{2018--2021}{Dark matter search with dark Higgs bosons decaying to vector boson pairs}{}{}{}{
@@ -113,26 +113,36 @@ Advisor: PD Dr. Oliver Kortner \\%
 	I was a central analyser (of 2), responsible for the analysis software, distributed computing, and statistical analysis. I developed and evaluated a method for estimating the multijet background. Further, I was a liaison for incorporating the results for a summary publication, their reinterpretation in terms of a model with an extended Higgs sector and contributed to their use in a combination of searches for invisible Higgs boson decays.
 }
 \subsection{ATLAS combined performance}
+\cventry{2023+}{Lepton isolation}{}{}{}{
+	\emph{The identification of prompt leptons is instrumental for analyses investigating leptonic top quark decays. Machine learning techniques are used for separating prompt leptons from those produced in decays of heavy flavour hadrons.}\newline
+	Using the techniques pioneered in jet flavour tagging, I develop algorithms based on transformer models to identify leptons from \(W\) and \(Z\) boson decays.
+}
 \cventry{2021+}{Flavour tagging algorithms}{}{}{}{
 	\emph{Jet flavour tagging underpins a large part of the ATLAS physics programme. Machine learning techniques are used for inferring the jet flavour.}\newline
-	I contribute to the development of the next generation of recommended flavour tagging algorithms for Run-3 ATLAS physics analysis.
+	I contribute to the development of the next generation of recommended flavour tagging algorithms for Run-3 ATLAS physics analysis. During the years 2021--2023 I co-lead the flavour tagging algorithms sub-group.
 }
 \subsection{Reinterpretation and reproducible research}
-\cventry{2019+}{ATLAS RECAST reinterpretation framework}{}{}{}{
+\cventry{2019--2023}{ATLAS RECAST reinterpretation framework}{}{}{}{
 	\emph{Preservation and automated reinterpretation of searches drastically increase their relevance to a broader class of theoretical models. All recently published ATLAS searches are required to provide a RECAST reinterpretation framework implementation.}\newline
 	I coordinated the reinterpretation of a dark matter search with Higgs bosons decaying to \(b\)-quarks in terms of a dark Higgs model with the RECAST framework and co-edited the first dedicated public note on RECAST. Further, I am interested in improving the limit setting in searches by exploiting active learning algorithms based on RECAST.
 }
+\subsection{Detector development}
+\cventry{2023+}{Characterisation of 65\(\,\)nm CMOS silicon detectors}{}{}{}{
+	\emph{Within the CERN EP R\&D group new module concepts for hybrid and monolithic CMOS pixel detectors are investigated for their use at future collider facilities.}\newline
+	I characterise the new silicon devices CLICpix2 and H2M as part of the CERN EP R\&D group with Dominik Dannheim in collaboration with DESY Hamburg. I equalised the non-uniformity of the pixel response and calibrated the collected charge using X-ray absorption from fluorescence and the absorption of radiation from radioisotope sources with known gamma-ray peaks.
+}
+\newpage
 \subsection{Upgrade studies}
 \cventry{2015--2017}{First-level muon trigger for High-Luminosity-LHC}{}{}{}{
 	\emph{Highly selective first-level muon triggers are essential for the ATLAS experiment at the High-Luminosity LHC. Including the precision monitored-drift-tube information substantially increases the trigger selectivity.}\newline
 	I studied a concept for a highly selective muon trigger, which is included in the Technical Design Report for the Phase-II Upgrade of the ATLAS Muon Spectrometer. Further, I studied fast track reconstruction algorithms which can be applied at the trigger-level.
 }
 
-\newpage
+
 
 \section{Talks and posters}
 \subsection{Invited talks}
-\cventry{July 2023}{Heavy flavor jet tagging algorithms in ATLAS}{To b or not to b - CMS BTV Workshop 2023}{Brussels, Belgium}{plenary talk}{}
+\cventry{July 2023}{Heavy flavor jet tagging algorithms in ATLAS}{To b or not to b - CMS BTV Workshop 2023}{Brussels, Belgium}{\href{https://indico.cern.ch/event/1274182/contributions/5458302/}{plenary talk}}{}
 \cventry{Feb 2020}{Dark matter searches with the ATLAS detector at the LHC}{Cavendish Laboratory HEP Seminar}{Cambridge, United Kingdom}{seminar talk}{}
 
 \subsection{International conferences}
@@ -188,7 +198,7 @@ using the ATLAS detector}{PHENO2023}{Pittsburgh, United States of America}{\href
 \cventry{2021+}{Elisaveta Sitnikova}{}{DESY / University of Hamburg (Physics)}{}{Search for heavy resonances in four-top-quark final states}
 \cventry{2020--2022}{Alicia Wongel}{}{DESY / University of Hamburg (Physics)}{}{Search for heavy resonances in four-top-quark final states}
 \cventry{2020--2022}{Janik von Ahnen}{}{DESY / University of Hamburg (Physics)}{}{Flavour tagging algorithm development, limits on a dark Higgs model with active learning}
-\newpage
+
 \subsection{Undergraduate Students}
 \cventry{2023}{Laura Winkler}{}{University of Geneva Master Student}{}{Improved detection of charm jets using charged $D^{*}$-mesons}
 \cventry{2022}{Stefan Katsarov}{}{DESY Summer Student}{}{Machine learning techniques for top quark reconstruction in four-top-quark final states}
@@ -209,13 +219,13 @@ using the ATLAS detector}{PHENO2023}{Pittsburgh, United States of America}{\href
 
 \section{Outreach}
 \cventry{}{CERN guide + science show host}{}{}{}{%
-Guided tours for CERN visitors on the campus, virtual visits and guided visits to the ATLAS cavern and science shows in the CERN Science Gateway.%
+Guided tours for CERN visitors on the campus, virtual visits and guided visits to the ATLAS cavern, as well as science shows in the CERN Science Gateway.%
 }
 \cventry{}{ATLAS Masterclass}{}{}{}{%
 High school students learn about the fundamentals of particle physics in lectures and engage in hands-on data analysis. I participated in ATLAS masterclasses by preparing and giving lectures and instructing the students in the hands-on session.%
 }
 \cventry{}{Science Slams}{}{}{}{%
-Science slams are competetive events in which scientists present their research in a given time frame to a diverse audience in an entertaining way. I participated in over 30 such events with a \href{https://www.youtube.com/watch?v=ZBDvvXhFoZg}{talk about dark matter searches at the Large Hadron Collider}, including the Southern German championship.%
+Science slams are competetive events in which scientists present their research in a given time frame to a diverse audience in an entertaining way. I participated in over 30 such events with a \href{https://www.youtube.com/watch?v=ZBDvvXhFoZg}{talk about dark matter searches at the Large Hadron Collider}, including the Southern German championship. In 2022, I organised a two-day science communication workshop about science communication for doctoral researchers at DESY.%
 }
 
 

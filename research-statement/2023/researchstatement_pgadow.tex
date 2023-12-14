@@ -1,0 +1,75 @@
+\documentclass{article}
+
+% Package definitions
+\usepackage[
+  a4paper,
+  margin=1in,
+  headsep=4pt, % separation between header rule and text
+]{geometry}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+
+% Document design choices
+\textwidth6in
+\setlength{\topmargin}{0in} \addtolength{\topmargin}{-\headheight}
+\addtolength{\topmargin}{-\headsep}
+\setlength{\oddsidemargin}{0in}
+
+\oddsidemargin  0.0in \evensidemargin 0.0in \parindent0em
+\pagestyle{fancy}\lhead{Research Statement} \rhead{Dec 2023}
+\chead{{\large{\bf Philipp Gadow}}} \lfoot{} \rfoot{\bf \thepage} \cfoot{}
+
+
+% Bibliography
+\usepackage{biblatex}
+\addbibresource{researchstatement_pgadow.bib}
+
+
+\begin{document}
+\raisebox{.5cm}
+
+% Research topic in a nutshell
+My research investigates new phenomena of physics beyond the Standard Model of particle physics (SM) and their possible connection with the nature of electroweak symmetry breaking.
+
+The experiments studying collisions from the Large Hadron Collider (LHC) at the CERN laboratory in Geneva have confirmed the predictions of the SM. However, the SM is incomplete and likely to be an effective description of a more fundamental theory.
+\bigskip
+
+% Searches for heavy particles produced in association with top quarks
+I am interested in \textbf{direct searches for new heavy particles} predicted by extensions of the SM by investigating rare and challengingly complex signatures that previous data analyses have not been able to resolve.
+The large Yukawa coupling of the top quark to the Higgs boson suggests using it as a probe for new physics underlying the electroweak symmetry breaking.
+While the current null results of \(t\overline{t}\) resonance searches provide stringent constraints on the mass of new particles at the TeV scale, depending on models, they have limited sensitivity to resonances coupling exclusively to third-generation-particles which require via top-associated production.
+
+Currently, I am leading the ATLAS search for heavy particles produced in association with top quarks targeting final states with three or four top quarks based on the full ATLAS Run-2 and partial Run-3 \(pp\) datasets. The search explores the resonance mass range up to the TeV range and probes the data for the presence of additional Higgs bosons or vector resonances.
+The complex final state requires an excellent reconstruction of the top quark candidates, identification of prompt leptons and jets initiated from \(b\)-quarks. I am developing attention-based machine learning techniques for the signal extraction and the reconstruction of the multiple top quark final state. Further, I am interested in the phenomenology of interference effects in models with multiple scalars and the implications for combining searches with two, three, and four top quarks.
+The techniques developed in this search can be transferred to other busy final states predicted by 2HDM and motivated by current observed excesses, such as \(A \rightarrow ZH \rightarrow \ell \ell t \overline{t}\) or the top-bottom-associated production of \(H^{\pm} \rightarrow H W^{\pm} \rightarrow t \overline{t} W^{\pm}\).
+
+\medskip
+
+% Flavour tagging
+An essential component of searches involving top quarks is the \textbf{identification of jets containing \(b\)-hadrons}. More generally, \textbf{jet flavour tagging} underpins the results in many areas of the physics programme of the ATLAS and CMS experiments, such as the recent observations of the Higgs boson decay into bottom quarks.
+In my role as co-convener of the ATLAS FTAG algorithms subgroup consisting of about 40 researchers, I have been responsible for the development, study and maintenance of machine learning algorithms used by the collaboration.
+
+% Lepton isolation
+The techniques pioneered in the flavour tagging group provide unprecedented sensitivity to \(b\)- and \(c\)-jets. Consequentially, they are to be extended to other physics objects, such as the identification of prompt leptons in environments with many leptons from heavy-flavour decays.
+\medskip
+
+% Dark matter searches
+I am further interested in the possible connection of dark matter with electroweak symmetry breaking, exploring \textbf{signatures with missing transverse momentum} predicted by \textbf{dark matter models with extended Higgs sector}.
+Searches for new physics at the LHC can probe signatures of yet unobserved dark matter particles which can only be detected by their recoil on visible particles, such as hadrons, electroweak bosons, and Higgs bosons.
+
+I was the central analyser in searches for dark matter production in association with hadronically decaying vector bosons, Higgs bosons decaying to b-quarks, and hypothetical dark Higgs bosons decaying to pairs of vector bosons. The searches pioneered novel analysis techniques for b-quark identification, background suppression, and boosted object reconstruction.
+The results of the analysis targeting dark matter production in association with hadronically decaying vector bosons were additionally included in an extensive summary publication.
+\medskip
+
+% Reproducible research
+Searches for new physics represent a significant investment of time and resources. In the light of a steadily increasing sensitivity to a growing number of BSM scenarios, a \textbf{powerful reinterpretation framework} enhances the impact of searches whose data is preserved. I coordinated and edited the first ATLAS public result using the RECAST reinterpretation framework to constrain a model predicting dark matter production in association with a dark Higgs boson decaying to b-quarks. I commit to the ideal of open and reproducible research for the benefit of the scientific community and am contributing to software trainings by the HEP Software Foundation.
+\medskip
+
+% Conclusion
+These searches are enabled by the record precision on the dataset to be collected by the ATLAS and CMS experiments until 2025 and by improvements in experimental techniques. In conclusion, I am developing new techniques to enable optimal searches exploiting the precision of the CMS Run-2 and Run-3 datasets.
+
+% Bibliography
+% \printbibliography
+
+\end{document}
