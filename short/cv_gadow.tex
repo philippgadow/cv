@@ -1,0 +1,142 @@
+%% LaTeX CV file for Philipp Gadow
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+%% custom commands
+\newcommand{\arxiv}[1]{\href{http://arxiv.org/abs/#1}{\texttt{arXiv:#1}}}
+
+\newlength{\savedindent}
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{grey}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvheadnamewidth}{10cm}            % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+
+\usepackage{bm}
+
+% personal data
+\name{Philipp}{Gadow}
+\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+\address{90 Avenue Francois Mitterand}{01630 Saint Genis Pouilly}{France}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+%% \phone[mobile]{+1~(234)~567~890}
+% optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+%% \phone[fixed]{+2~(345)~678~901}
+%% \phone[fax]{+3~(456)~789~012}
+\email{philipp.gadow@mytum.de}                               % optional, remove / comment the line if not wanted
+% \homepage{me.pgadow.de}                         % optional, remove / comment the line if not wanted
+%\social[linkedin]{john.doe}                        % optional, remove / comment the line if not wanted
+%\social[xing]{john\_doe}                           % optional, remove / comment the line if not wanted
+%\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
+\social[github]{philippgadow}                     % optional, remove / comment the line if not wanted
+% \social[gitlab]{https://gitlab.cern.ch/pgadow}     % optional, remove / comment the line if not wanted
+% \social[skype]{philippgadow1190}                               % optional, remove / comment the line if not wanted
+\extrainfo{\url{http://me.pgadow.de}}                 % optional, remove / comment the line if not wanted
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+%\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Employment and education}
+\cventry{Mar 2023+}{Senior Research Fellow}{CERN}{Meyrin, Switzerland}{}{}{}
+
+\cventry{Nov 2020--Feb 2023}{Postdoctoral Research Fellow}{Deutsches Elektronensynchrotron DESY}{Hamburg, Germany}{}{}{}
+
+\cventry{Sep 2016--Oct 2020}{PhD Physics}{Max-Planck-Institut für Physik}{Munich, Germany}{}{%
+Advisor: PD Dr. Oliver Kortner \\%
+\href{https://cds.cern.ch/record/2744557}{Thesis: Search for Dark Matter Produced in Association with Hadronically Decaying Bosons at \(\sqrt{s}\)~=~13\,TeV with the ATLAS Detector at the LHC} %
+}
+\cventry{2013--2016}{M.Sc. Particle Physics}{Technical University of Munich}{Munich, Germany}{}{%
+\href{https://cds.cern.ch/record/2162398}{Thesis: Development of a Concept for the Muon Trigger of the ATLAS Detector at the HL-LHC}%
+}
+\cventry{Winter 2013}{Erasmus SMS}{University of Edinburgh}{Edinburgh, United Kingdom}{}{}
+\cventry{2010--2013}{B.Sc. Physics}{Technical University of Munich}{Munich, Germany}{}{%
+\href{https://www.das.ktas.ph.tum.de/DasDocs/Public/Bachelor_Theses/thesis_Gadow.pdf}{Thesis: dE/dx studies with pion and electron tracks of the ALICE GEM IROC prototype}%
+}
+
+
+\section{Leadership}
+\cventry{2024+}{Subgroup convener}{ATLAS experiment}{}{}{Co-coordination (2 subgroup conveners) of the HQT (Heavy Quarks, Top and Composite Higgs) Exotics Subgroup. Coordination of 16 analysis teams (starting April 2024).}
+\cventry{2021-2023}{Flavour tagging algorithms sub-group convener}{ATLAS experiment}{}{}{Co-coordination (2 conveners) of a group consisting of 40 physicists working on machine learning algorithms for the identification of heavy-flavour jets at the ATLAS experiment.}
+\cventry{2021-2023}{Analysis contact roles}{ATLAS experiment}{}{}{Coordination of a search for vector-like \(B\) quarks decaying to \(H(\gamma\gamma) + b\), co-coordination (2 contacts) of a heavy resonances search in four-top-quark final states and co-coordination (3 contacts) of the combined Run-2 and Run-3 multi-top-quark search.}
+
+
+\section{Research experience}
+\cventry{2020+}{Search for heavy resonances in four-top-quark final states}{}{}{}{}
+\cventry{2016--2021}{Searches for dark matter}{}{with dark Higgs bosons decaying to vector boson pairs, Higgs bosons decaying to $b$-quarks, and hadronically decaying vector bosons}{}{}
+\cventry{2023+}{Lepton isolation}{}{}{}{}
+\cventry{2021+}{Flavour tagging algorithms}{}{}{}{}
+\cventry{2019--2023}{Reinterpretation and reproducible research}{}{with ATLAS RECAST reinterpretation framework}{}{}
+\cventry{2023+}{Detector development}{}{Characterisation of 65\(\,\)nm CMOS silicon detectors (CLICpix2 and H2M as part of the CERN EP R\&D group)}{}{}
+\cventry{2015--2017}{First-level muon trigger studies for High-Luminosity-LHC}{}{}{}{}
+
+
+\newpage
+
+\section{Talks and posters}
+\cventry{Mar 2024}{A Scalable Platform for Training and Inference Using Kubeflow at CERN}{Kubeflow Summit
+Europe}{Paris, France}{\href{https://sched.co/1YFhA/}{workshop talk}}{}
+\cventry{Feb 2024}{Educational Outreach with AI-Assisted CERN Open Data Analysis}{1st Large Language Models in Physics Symposium}{Hamburg, Germany}{\href{https://indico.desy.de/event/38849/contributions/162122/}{workshop talk}}{}
+\cventry{Jul 2023}{Searches for new phenomena in final states with 3rd generation quarks
+using the ATLAS detector}{SUSY2023}{Southampton, United Kingdom}{\href{https://indico.cern.ch/event/1214022/contributions/5461065/}{conference talk}}{}
+\cventry{Jul 2023}{Heavy flavor jet tagging algorithms in ATLAS}{To b or not to b - CMS BTV Workshop 2023}{Brussels, Belgium}{\href{https://indico.cern.ch/event/1274182/contributions/5458302/}{plenary talk}}{}
+\cventry{Jul 2022}{Searches for new phenomena in final states with 3rd generation quarks
+using the ATLAS detector}{PHENO2023}{Pittsburgh, United States of America}{\href{https://fisindico.uniandes.edu.co/indico/contributionDisplay.py?contribId=5&sessionId=20&confId=78}{conference talk}}{}
+\cventry{Feb 2020}{Dark matter searches with the ATLAS detector at the LHC}{Cavendish Laboratory HEP Seminar}{Cambridge, United Kingdom}{seminar talk}{}
+\cventry{Jul 2019}{ATLAS Highlights on Dark Matter Searches in Exotic Models}{XIII International Workshop on Interconnections between Particle Physics and Cosmology}{Cartagena, Columbia}{\href{https://fisindico.uniandes.edu.co/indico/contributionDisplay.py?contribId=5&sessionId=20&confId=78}{conference talk}}{}
+\cventry{Oct 2018}{Search for dark matter produced in association with a Higgs boson decaying to bb}{Puzzle of Dark Matter Workshop}{DESY Hamburg, Germany}{\href{https://indico.desy.de/indico/event/19155/session/9/contribution/51/material/slides/0.pdf}{Young Scientist Forum talk}}{}
+\cventry{Jun 2018}{Search for Dark Matter in association with a hadronically decaying Z' vector boson with the ATLAS detector in pp collisions at 13 TeV}{Sixth Annual Conference on Large Hadron Collider Physics}{Bologna, Italy}{\href{https://indico.cern.ch/event/681549/contributions/2956249/}{poster}}{}
+
+
+\section{Awards}
+\cventry{2010-2016}{Full scholarship}{}{}{}{%
+	Studienstiftung des deutschen Volkes (German Academic Scholarship Foundation) \\%
+}
+\cventry{2014}{Teaching award}{}{}{}{Goldene Kreide der Physikfachschaft \\%
+	\textit{The ``Goldene Kreide'' is awarded annually by the student council of the physics department to distinguish outstanding student tutors.}
+}
+
+\section{Student supervision}
+\cventry{2020--2023}{Four graduate students}{}{DESY / University College London / University of Hamburg (2x)}{}{Flavour tagging algorithm development, search for heavy resonances in four-top-quark final states, limits on a dark Higgs model with active learning}
+\cventry{2021+}{Four undergraduate students}{}{CERN / Notre Dame University / University of Geneva / DESY Summer Student (2x)}{}{Improved lepton isolation for \(H(ZZ*)\) measurements, improved detection of charm jets using charged $D^{*}$-mesons, machine learning techniques for top quark reconstruction in four-top-quark final states, machine learning techniques for jet flavour tagging}
+
+
+\section{Outreach}
+\cventry{}{CERN guide + science show host}{}{}{}{}
+\cventry{}{Science Slams}{}{}{}{%
+Science slams are competetive events in which scientists present their research in a given time frame to a diverse audience in an entertaining way. I participated in over 30 such events with a \href{https://www.youtube.com/watch?v=ZBDvvXhFoZg}{talk about dark matter searches at the Large Hadron Collider}, including the Southern German championship. In 2022, I organised a two-day science communication workshop about science communication for doctoral researchers at DESY.%
+}
+
+
+\end{document}
