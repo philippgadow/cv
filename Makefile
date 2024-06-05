@@ -7,7 +7,7 @@ LATEX = xelatex
 LATEX_FLAGS = -interaction=nonstopmode -shell-escape
 
 # Source file
-SRC = cv_pgadow.tex
+SRC = cv_gadow.tex
 
 # Default rule
 all: pdf
