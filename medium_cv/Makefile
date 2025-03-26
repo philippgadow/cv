@@ -1,15 +1,28 @@
-BIBTEX   = biber
-PDFTEX = pdflatex -interaction=nonstopmode -halt-on-error -shell-escape
+# Makefile for LaTeX documents using xelatex
 
-.PHONY: all
+# Compiler
+LATEX = xelatex
 
-TEX := cv_gadow.tex
-ALLSRC := $(TEX)
-all: $(ALLSRC:.tex=.pdf)
+# Flags for xelatex
+LATEX_FLAGS = -interaction=nonstopmode -shell-escape
 
-IGNORE_WARNINGS := 'Marginpar on page|float specifier changed'
-COLOR_WARNINGS := '^LaTeX Warning:|Fatal error'
-FILTER_WARN := egrep -v $(IGNORE_WARNINGS) | egrep --color $(COLOR_WARNINGS)
-%.pdf: %.tex
-	$(PDFTEX) $<
-	rm *.aux *.log *.out
+# Source file
+SRC = cv_gadow.tex
+
+# Default rule
+all: pdf
+
+# Rule to build PDF
+pdf:
+	$(LATEX) $(LATEX_FLAGS) $(SRC)
+	$(LATEX) $(LATEX_FLAGS) $(SRC)  # Run twice for proper references
+
+# Rule to clean up auxiliary files
+clean:
+	rm -f *.aux *.log *.out *.toc *.bbl *.blg *.bcf *.xml
+
+# Rule to clean up all generated files
+cleanall:
+	rm -f *.aux *.log *.out *.toc *.pdf *.bbl *.blg *.bcf *.xml
+
+.PHONY: all pdf clean cleanall
